@@ -1,0 +1,91 @@
+body, html {
+    height: 100%;
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-image{
+  background-image: url('https://c1.wallpaperflare.com/preview/605/920/934/facebook-social-media-communication-network.jpg');
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.bg-text {
+    font-weight: bold;
+    position: relative;
+    top: -70%;
+    text-align: center;
+  }
+
+div{
+    opacity: 0.9;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#titolo{
+    /*background-color: rgb(59,89,152);*/
+    font: bolder;
+    color: rgb(19, 17, 17);
+    font-size: 100px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 1px;
+    padding-bottom: 427px;
+}
+
+#membri{
+  background-color: rgb(209, 209, 223);
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+
+#membri:hover{
+  filter: none;
+}
+
+.paragrafo1{
+  position: relative;
+  text-align: left;
+  left: -500px;
+  width: max-content;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.paragrafo:hover{
+  box-shadow:10px 10px 20px 5px black;
+}
+
+.paragrafo2{
+  position: relative;
+  text-align: left;
+  left: 500px;
+  width: max-content;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.paragrafo3{
+  position: relative;
+  text-align: left;
+  left: -500px;
+  width: max-content;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.paragrafo4{
+  position: relative;
+  text-align: left;
+  left: 500px;
+  width: max-content;
+  border: 3px solid black;
+  border-radius: 5px;
+}

@@ -1,0 +1,86 @@
+html,body{
+    width: 100%;
+}
+
+* {
+    padding: 0;
+    margin:0;
+}
+
+body {
+    font-family: sans-serif;
+    background: #eee;
+}
+
+h1 {
+    color: #d32e2e;
+    text-align: center;
+    position: relative;
+    left: -200px;
+    padding-bottom: 15px;
+}
+
+h2 {
+    float: left;
+    color:#b6afaf;
+}
+
+canvas {
+    width: 900px;
+    height: 700px;
+    float: left;
+    padding: 40px;
+}
+
+div.menu {
+    float: left;
+    max-width: 30%;
+    padding-left: 24px;
+    padding-top: 40px;
+}
+
+button{
+    background-color: #ffffff; /* Green */
+    border: 2px solid #04AA6D;
+    border-radius: 5px;
+    color: #04AA6D;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px ;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position:relative;
+    animation-name: prova;
+    animation-duration: 2.5s;
+}
+
+button:hover{
+    background-color: #04AA6D;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+}
+
+@keyframes prova{
+    from {color: #ffffff;border-color: #ffffff;left: 200px;}
+    to {color: #04AA6D; border-color: #04AA6D;left: 0px;}
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+#mosse{
+    padding-top: 42px;
+    position: relative;
+    left: 23px;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 2em;
+}
