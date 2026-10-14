@@ -1,0 +1,26 @@
+#titolo-1 {
+    background-color: burlywood;
+}
+
+.text-green {
+    color:green;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a:hover {
+    background-color: aqua;
+}
+
+.box::before {
+    content:"Testo preso da lorem ipsum";
+    display: block;
+    width: 200px;
+    background-color: aqua;
+}
