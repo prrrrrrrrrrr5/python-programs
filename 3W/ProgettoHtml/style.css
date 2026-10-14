@@ -1,0 +1,26 @@
+body{
+    background-color: #3b5998;
+ 
+    
+}
+h1{
+    color: rgb(0, 0, 32);
+    text-align: center;
+}
+a{
+    color:lightblue
+
+}
+p{
+    margin-left: 130px;
+    border-style:hidden;
+    color: rgb(0, 48, 66);
+}
+marquee{
+    color: lightblue
+
+}
+
+img{
+    width: 500px;
+}

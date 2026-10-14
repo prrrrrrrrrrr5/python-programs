@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gli automi turchi presentano le aperture</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <script src="https://cdn.babylonjs.com/babylon.js"></script>
+        <script src="common.js"></script>
+        <script src="pezzi.js"></script>
+        <script src="mosse.js"></script>
+        <script src="motore.js"></script>
+        <script src="animazioni.js"></script>
+
+    </head>
+    <body>
+        <a href="index-fullpage.html">fullpage</a>
+        <div class="topnav">
+            <h2><em>Gli automi turchi</em> presentano</h2><br>
+            <h1>Le aperture</h1>
+        </div>
+        
+        <canvas id="c"></canvas>
+        <div id="mosse">
+            <br>
+            Qui si vedranno le mosse!
+        </div>
+        <div class="menu">
+            <br><br><br><br>
+            <p>Scegli dal menu superiore l'apertura/difesa che vuoi vedere.</p><br>
+            <button onclick="mostraApertura(boh2)">Difesa siciliana</button>
+            <button onclick="mostraApertura(giocoPiano)">Gioco piano</button>
+            <button onclick="mostraApertura(gambettoDiRegina)">Gambetto di regina</button>
+            <button onclick="mostraApertura(sicily)">Apertura siciliana</button>
+            <button onclick="mostraApertura(spagnola)">Partita spagnola</button>
+            <button onclick="mostraApertura(slava)">Difesa slava</button>
+            <button onclick="mostraApertura(sicily)">Apertura siciliana</button>
+            <button onclick="mostraApertura(spagnola)">Partita spagnola</button>
+            <button onclick="mostraApertura(slava)">Difesa slava</button>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <button onclick="window.location.reload()">Resetta scacchiera</button>
+        </div>
+        
+    </body>
+</html>

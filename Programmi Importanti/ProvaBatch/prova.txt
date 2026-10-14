@@ -1,0 +1,31 @@
+@echo off
+
+:start
+echo Digita 1 per copiare le directory dentro una cartella in un file testo
+echo Digita 2 per eliminare un file
+echo Digita 3 per uscire dal programma
+set /p risposta=numero:
+
+if %risposta%==1 goto :labelA
+if %risposta%==2 goto :labelB
+if %risposta%==3 goto :exit0
+
+:labelA
+set /p cartella=percorso cartella:
+set /p nome=nome file testo:
+echo .>C:\Users\ivano\OneDrive\Desktop\ProvaBatch\%nome%.txt
+dir %cartella% > C:\Users\ivano\OneDrive\Desktop\ProvaBatch\%nome%.txt
+echo The program has completed
+echo Your copied files are in the file %nome%.txt
+pause
+goto :start
+
+:labelB
+set /p file=file name:
+del %file%.txt
+echo The program has completed
+pause
+goto :start
+
+:exit0
+exit
